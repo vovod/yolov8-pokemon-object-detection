@@ -4,6 +4,10 @@ Using yolov8 after training with Google Colab
 Because lack of data, there are only 7 class: ```pikachu```, ```charmander```, ```bulbasaur```, ```squirtle```, ```eevee```, ```jigglypuff``` and ```other```.  
   
 ![labels](https://github.com/vovod/yolov8-pokemon-object-detection/blob/main/after_train/labels.jfif)
+## Requirements
+```
+pip install ultralytics
+```
 ## Preprocess Data
 The ```convert.py``` used to convert *.xml* label file to *.txt* yolo label file.  
 Run ```resize_image.py``` to resize image's width to 640.

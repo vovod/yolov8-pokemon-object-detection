@@ -12,10 +12,10 @@ pip install ultralytics
 The ```convert.py``` used to convert *.xml* label file to *.txt* yolo label file.  
 Run ```resize_image.py``` to resize image's width to 640.
 ## Train with Colab
-Edit ```coco128.yaml```.
+Edit ```name.yaml```.
 Upload images and labels.
 ```
-!yolo train model=yolov8n.pt data=/content/coco128.yaml epochs=50 imgsz=640
+!yolo train model=yolov8n.pt data=/content/name.yaml epochs=50 imgsz=640
 ```
 ## Training's Result
 ```last.pt``` and ```best.pt``` in result folder.
